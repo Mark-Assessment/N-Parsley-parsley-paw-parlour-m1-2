@@ -1,0 +1,37 @@
+#landing-image {
+    width: 100%;
+    height: 600px;
+    background: url("../media/landing-image.jpg") no-repeat center center;
+}
+
+#landing-image-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#cover-text,
+#cover-text h2 {
+    color: #ffffff;
+}
+
+#cover-text {
+
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(116, 116, 116, 0.3);
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
+
+}
