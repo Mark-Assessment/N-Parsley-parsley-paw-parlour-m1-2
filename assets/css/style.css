@@ -8,6 +8,19 @@ body {
     height: 600px;
     background: url("../media/landing-image.jpg") no-repeat center center;
     background-size: cover;
+    animation-name: landing-image-zoom;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes landing-image-zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
 }
 
 #landing-image-outer {
