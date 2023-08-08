@@ -99,7 +99,7 @@
             <button
               class="btn btn-lg btn--cta btn--red"
               data-toggle="modal"
-              data-target="#signUpModal"
+              data-target="#booking"
             >
               Book Now!
             </button>
@@ -184,6 +184,149 @@
         </div>
       </div>
     </footer>
+
+    <div
+      class="modal fade"
+      id="booking"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="exampleModalCenterTitle">
+              Book Your Furry Friend's Retreat Today!
+            </h3>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h4><b>About You</b></h4>
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-4">
+                  <input
+                    type="text"
+                    class="form-control"
+                    aria-describedby="name"
+                    placeholder="Name"
+                    required="true"
+                  />
+                </div>
+                <div class="col-8">
+                  <input
+                    type="tel"
+                    class="form-control"
+                    aria-describedby="phone"
+                    placeholder="Contact Number"
+                  />
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <input
+                    type="email"
+                    class="form-control"
+                    aria-describedby="email"
+                    placeholder="Email Address"
+                  />
+                </div>
+              </div>
+            </div>
+            <hr />
+            <h4><b>Your Cat</b></h4>
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-4">
+                  <input
+                    type="text"
+                    aria-describedby="name"
+                    placeholder="Name"
+                    class="form-control"
+                    required
+                  />
+                </div>
+                <div class="col-4">
+                  <div class="input-group">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Age In"
+                      aria-label="Age In Years"
+                    />
+                    <div class="input-group-append">
+                      <span class="input-group-text">Years</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="input-group">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="And"
+                      aria-label="Age In Years"
+                    />
+                    <div class="input-group-append">
+                      <span class="input-group-text">Months</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-6">
+                  <label for="date-from">Stay From</label>
+                  <input
+                    type="date"
+                    id="date-from"
+                    class="form-control"
+                    aria-describedby="email"
+                    placeholder="Date From"
+                  />
+                </div>
+                <div class="col-6">
+                  <label for="date-to">Until</label>
+                  <input
+                    type="date"
+                    id="date-to"
+                    class="form-control"
+                    aria-describedby="email"
+                    placeholder="Date From"
+                  />
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <textarea
+                    class="form-control"
+                    aria-label="With textarea"
+                    placeholder="Please enter any additional information or questions here..."
+                  ></textarea>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary">Book Now!</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
