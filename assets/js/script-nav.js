@@ -1,12 +1,12 @@
 var nav = document.getElementById("site-nav");
+var landingImage = document.getElementById("landing-image");
 window.onscroll = function () { scrollFunction(); };
 
 function scrollFunction() {
 
-    if (document.documentElement.scrollTop > 480) {
-        nav.style.backgroundColor = "rgb(51, 51, 51)";
+    var opacity = 0.8 * (document.documentElement.scrollTop / 480);
+    nav.style.backgroundColor = "rgb(51, 51, 51," + opacity + " )";
 
-    } else {
-        nav.style.backgroundColor = "";
-    }
+    var blur = 10 * (document.documentElement.scrollTop / 600);
+    landingImage.style.filter = "blur(" + blur + "px)";
 }
