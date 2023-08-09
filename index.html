@@ -78,7 +78,7 @@
         <h3>Whilst You Are Away</h3>
       </div>
     </section>
-    <div id="jumbo-info-container" class="container-fluid callout-container">
+    <div  class="jumbo-info-container container-fluid callout-container">
       <div class="opaque-overlay">&nbsp;</div>
       <div class="row">
         <div class="col-12">
@@ -117,12 +117,30 @@
         </div>
       </div>
     </div>
-
-    <div id="jumbo-info-container" class="container-fluid callout-container">
+    <div id="Interaction" class="container callout-container jumbo-info-container">
         <div class="opaque-overlay">&nbsp;</div>
         <div class="row">
-            <div class="col-12">
-                <section class="callout jumbotron text-center">
+            <div class="col-8">
+                <section class="callout jumbotron text-left">
+                    <h1 class="jumbotron-header">Interaction</h1>
+                    <hr class="block-divider block-divider--orange" />
+                    <p class="lead">
+                        Each cat is attended to daily!
+                    </p>
+                    <p>
+                        This entails a basic groom, check-over and lots of attention. Classical music
+                        will be played throughout the establishement. All to ensure they enjoy a <strong> comfortable and relaxing </strong> stay.
+                    </p>
+                    
+                </section>
+            </div>
+        </div>
+    </div>
+    <div id="nutrition" class="container callout-container jumbo-info-container">
+        <div class="opaque-overlay">&nbsp;</div>
+        <div class="row">
+            <div class="col-8 offset-4">
+                <section class="callout jumbotron text-right">
                     <h1 class="jumbotron-header">Nutrition</h1>
                     <hr class="block-divider block-divider--orange" />
                     <p class="lead">
@@ -132,9 +150,7 @@
                         We offer only the <strong>best natural food</strong>  - preferring to use Iams or Royal Canin dry food and nature diet fresh food. We can
                         cater for most diets from our selection of foods, alternately you are welcome to bring your own food.
                     </p>
-                   <em>We even offer an à la carte menu of freshly cooked fish or chicken each day for an extra charge of £2 per day.</em>
-                    
-                    
+                   <em>We even offer an à la carte menu of freshly cooked fish or chicken each day for an extra charge of £2 per day.</em> 
                 </section>
             </div>
         </div>
@@ -382,6 +398,22 @@
       </div>
     </div>
 
+    <script>
+     
+            var nav = document.getElementById("site-nav");
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function () { scrollFunction(); };
+
+            function scrollFunction() {
+                if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 1) {
+                    nav.style.backgroundColor = "rgb(51, 51, 51)";
+
+                } else {
+                    nav.style.backgroundColor = "";
+
+                }
+            }
+    </script>
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
