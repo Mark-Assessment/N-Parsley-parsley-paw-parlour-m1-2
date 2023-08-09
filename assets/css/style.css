@@ -156,3 +156,7 @@ footer {
         bottom: 15%;
     }
 }
+
+.active {
+    border-bottom: solid #ffffff;
+}
