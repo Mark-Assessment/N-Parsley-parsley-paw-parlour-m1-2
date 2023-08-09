@@ -151,7 +151,7 @@ footer {
     float: right;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 900px) {
     #cover-text {
         bottom: 15%;
     }
@@ -159,4 +159,29 @@ footer {
 
 .active {
     border-bottom: solid #ffffff;
+}
+
+.scroll-indicator {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.scroll-indicator::before {
+    animation: bounce 1.5s ease infinite;
+    bottom: 2rem;
+    color: #fff;
+    content: '╲╱';
+    left: 50%;
+    line-height: 4rem;
+    margin-left: -3rem;
+    position: absolute;
+    text-align: center;
+    width: 6rem;
+}
+
+@keyframes bounce {
+    50% {
+        transform: translateY(-50%);
+    }
 }
