@@ -1,9 +1,6 @@
 body {
     font-family: 'Oswald', sans-serif;
-
 }
-
-
 
 #site-nav {
     position: fixed;
@@ -76,16 +73,17 @@ body {
     position: absolute;
 }
 
-/* #jumbo-info-container {
-    background-color: #e3d5ca;
-} */
-
 .jumbo-info-container .jumbotron {
     background-color: #f5ebe0;
 }
 
 .jumbo-info-container button {
     background-color: #d6ccc2;
+}
+
+#carousel-container {
+    background-color: #f5ebe0;
+    margin: 15px;
 }
 
 #carousel-title {
