@@ -33,7 +33,7 @@ body {
     width: 100%;
     min-height: 100%;
     background: url("../media/landing-image.jpg") no-repeat center center fixed;
-    /* background-size: cover; */
+    /* background-color: rgba(51, 51, 51, 0.5); */
     animation-name: landing-image-zoom;
     animation-duration: 4s;
     animation-fill-mode: forwards;
@@ -62,23 +62,51 @@ body {
 }
 
 #cover-text {
-
     text-transform: uppercase;
     letter-spacing: 4px;
-
     width: 300px;
     height: 200px;
-
     padding-top: 40px;
     padding-left: 10px;
-
     background-color: rgba(116, 116, 116, 0.3);
-
-    bottom: 30px;
-    right: 150px;
-
+    bottom: 10%;
+    left: 10%;
     position: absolute;
+}
 
+#jumbo-info-container {
+    background-color: #e3d5ca;
+}
+
+#jumbo-info-container .jumbotron {
+    background-color: #f5ebe0;
+}
+
+#jumbo-info-container button {
+    background-color: #d6ccc2;
+}
+
+#carousel-title {
+    position: absolute;
+    margin: 5px;
+    z-index: 1;
+    background-color: rgba(116, 116, 116, 0.7);
+    color: #ffffff;
+}
+
+.carousel-testimony {
+    background-color: rgba(116, 116, 116, 0.7);
+    margin: 5px;
+    padding: 5px;
+    bottom: 0px;
+    right: 0px;
+    position: absolute;
+    max-width: 75%;
+    color: #ffffff;
+}
+
+#carousel-title h3 {
+    padding: 5px;
 }
 
 #carousel-item-1 {
