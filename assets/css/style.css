@@ -9,7 +9,6 @@ body {
     width: 100%;
     background-color: transparent;
     border-bottom: solid rgba(255, 255, 255, .3);
-    transition: 0.5s;
 }
 
 #site-nav a {
@@ -150,4 +149,10 @@ footer {
 
 .modal-footer .container-fluid input {
     float: right;
+}
+
+@media screen and (max-width: 400px) {
+    #cover-text {
+        bottom: 15%;
+    }
 }
