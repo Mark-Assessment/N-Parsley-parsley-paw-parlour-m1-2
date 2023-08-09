@@ -184,10 +184,11 @@
         <span class="sr-only">Next</span>
       </a>
     </div>
+
     <footer class="text-center">
       <div class="container-fluid" id="footer">
         <div class="row">
-          <div class="col">
+          <div class="col-12 col-md-6">
             <div class="row">
               <div class="col-12">
                 <h2>Parsley Paw Parlour</h2>
@@ -199,7 +200,7 @@
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col-12 col-md-6">
             <div class="row">
               <div class="col-12">
                 <i class="fa-solid fa-envelope"></i> meow@parsleypawparlour.meow
@@ -245,112 +246,103 @@
             </button>
           </div>
           <div class="modal-body">
-            <h4><b>About You</b></h4>
-            <div class="container-fluid">
-              <div class="row">
-                <div class="col-4">
-                  <input
-                    type="text"
-                    class="form-control"
-                    aria-describedby="name"
-                    placeholder="Name"
-                    required="true"
-                  />
-                </div>
-                <div class="col-8">
-                  <input
-                    type="tel"
-                    class="form-control"
-                    aria-describedby="phone"
-                    placeholder="Contact Number"
-                  />
-                </div>
-              </div>
-              <div class="row">
-                <div class="col">
-                  <input
-                    type="email"
-                    class="form-control"
-                    aria-describedby="email"
-                    placeholder="Email Address"
-                  />
-                </div>
-              </div>
-            </div>
-            <hr />
-            <h4><b>Your Cat</b></h4>
-            <div class="container-fluid">
-              <div class="row">
-                <div class="col-4">
-                  <input
-                    type="text"
-                    aria-describedby="name"
-                    placeholder="Name"
-                    class="form-control"
-                    required
-                  />
-                </div>
-                <div class="col-4">
-                  <div class="input-group">
+            <form method="POST" action="https://formdump.codeinstitute.net/">
+              
+              <div class="container-fluid">
+                <h4><b>About You</b></h4>
+                <div class="row">
+                  <div class="col-6">
                     <input
                       type="text"
                       class="form-control"
-                      placeholder="Age In"
-                      aria-label="Age In Years"
+                      aria-describedby="name"
+                      placeholder="Name"
+                      name="owner-name"
+                      required
                     />
-                    <div class="input-group-append">
-                      <span class="input-group-text">Years</span>
-                    </div>
+                  </div>
+                  <div class="col-6">
+                    <input
+                      type="tel"
+                      class="form-control"
+                      aria-describedby="phone"
+                      name="contact-no"
+                      required
+                      placeholder="Contact Number"
+                    />
                   </div>
                 </div>
-                <div class="col-4">
-                  <div class="input-group">
+                <div class="row">
+                  <div class="col">
+                    <input
+                      type="email"
+                      class="form-control"
+                      aria-describedby="email"
+                      required
+                      name="email"
+                      placeholder="Email Address"
+                    />
+                  </div>
+                </div>
+              </div>
+              <hr />
+              
+              <div class="container-fluid">
+                <h4><b>Your Cat</b></h4>
+                <div class="row">
+                  <div class="col-12">
                     <input
                       type="text"
+                      aria-describedby="name"
+                      placeholder="Name"
                       class="form-control"
-                      placeholder="And"
-                      aria-label="Age In Years"
+                      name="cat-name"
+                      required
                     />
-                    <div class="input-group-append">
-                      <span class="input-group-text">Months</span>
-                    </div>
+                  </div>
+                
+                </div>
+                <div class="row">
+                  <div class="col-6">
+                    <label for="date-from">Stay From</label>
+                    <input
+                      type="date"
+                      id="date-from"
+                      name="date-from"
+                      class="form-control"
+                      aria-describedby="email"
+                      placeholder="Date From"
+                      required
+                    />
+                  </div>
+                  <div class="col-6">
+                    <label for="date-to">Until</label>
+                    <input
+                      type="date"
+                      id="date-to"
+                      name="date-to"
+                      class="form-control"
+                      aria-describedby="email"
+                      placeholder="Date From"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <textarea
+                      class="form-control"
+                      name="additional-info"
+                      aria-label="With textarea"
+                      placeholder="Please enter any additional information or questions here..."
+                    ></textarea>
                   </div>
                 </div>
               </div>
-              <div class="row">
-                <div class="col-6">
-                  <label for="date-from">Stay From</label>
-                  <input
-                    type="date"
-                    id="date-from"
-                    class="form-control"
-                    aria-describedby="email"
-                    placeholder="Date From"
-                  />
-                </div>
-                <div class="col-6">
-                  <label for="date-to">Until</label>
-                  <input
-                    type="date"
-                    id="date-to"
-                    class="form-control"
-                    aria-describedby="email"
-                    placeholder="Date From"
-                  />
-                </div>
-              </div>
-              <div class="row">
-                <div class="col">
-                  <textarea
-                    class="form-control"
-                    aria-label="With textarea"
-                    placeholder="Please enter any additional information or questions here..."
-                  ></textarea>
-                </div>
-              </div>
-            </div>
+            
           </div>
           <div class="modal-footer">
+            <div class="container-fluid">
             <button
               type="button"
               class="btn btn-secondary"
@@ -358,8 +350,11 @@
             >
               Close
             </button>
-            <button type="button" class="btn btn-primary">Book Now!</button>
+            <input type="submit" class="btn btn-primary">
+            <!-- <button type="button" class="btn btn-primary">Book Now!</button> -->
           </div>
+        </div>
+        </form>
         </div>
       </div>
     </div>

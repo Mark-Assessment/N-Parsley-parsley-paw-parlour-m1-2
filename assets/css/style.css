@@ -126,3 +126,28 @@ body {
     background: url("../media/carousel-cat3.jpg") no-repeat center center;
     background-size: cover;
 }
+
+footer {
+    background-color: #e3d5ca;
+    padding: 15px;
+}
+
+.modal-content {
+    background-color: #d6ccc2;
+}
+
+.modal-content input,
+.modal-content textarea,
+.modal-content span {
+
+    min-width: auto;
+    margin-bottom: 5px;
+}
+
+.modal-footer .btn {
+    margin: 5px;
+}
+
+.modal-footer .container-fluid input {
+    float: right;
+}
