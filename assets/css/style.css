@@ -182,18 +182,6 @@ footer {
     }
 }
 
-#gallery-image {
-    width: 100%;
-    position: fixed;
-    z-index: -99;
-    min-height: 100%;
-    background: url("../media/gallery-background.webp") no-repeat center center fixed;
-    /* background-color: rgba(51, 51, 51, 0.5); */
-    animation-name: landing-image-zoom;
-    animation-duration: 4s;
-    animation-fill-mode: forwards;
-}
-
 .gallery-item {
     background-color: #e3d5ca;
     margin: 15px auto;
@@ -288,26 +276,16 @@ footer {
     min-height: 100%;
 }
 
+#gallery-image {
+    background: url("../media/gallery-background.webp") no-repeat center center fixed;
+}
+
 #prices-image {
-    width: 100%;
-    position: fixed;
-    z-index: -99;
-    min-height: 100%;
     background: url("../media/prices-background.jpeg") no-repeat center center fixed;
-    animation-name: landing-image-zoom;
-    animation-duration: 4s;
-    animation-fill-mode: forwards;
 }
 
 #faq-image {
-    width: 100%;
-    position: fixed;
-    z-index: -99;
-    min-height: 100%;
     background: url("../media/faq-background.jpeg") no-repeat center center fixed;
-    animation-name: landing-image-zoom;
-    animation-duration: 4s;
-    animation-fill-mode: forwards;
 }
 
 @media screen and (max-width: 900px) {
