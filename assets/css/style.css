@@ -231,6 +231,7 @@ footer {
     min-width: 100%;
     min-height: 100%;
 }
+
 #gallery-05 {
     background: url("../media/gallery-05.jpeg") no-repeat center center;
     background-size: cover;
@@ -287,7 +288,7 @@ footer {
     min-height: 100%;
 }
 
-#prices-image{
+#prices-image {
     width: 100%;
     position: fixed;
     z-index: -99;
@@ -296,17 +297,33 @@ footer {
     animation-name: landing-image-zoom;
     animation-duration: 4s;
     animation-fill-mode: forwards;
-    
+}
+
+#faq-image {
+    width: 100%;
+    position: fixed;
+    z-index: -99;
+    min-height: 100%;
+    background: url("../media/faq-background.jpeg") no-repeat center center fixed;
+    animation-name: landing-image-zoom;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
 }
 
 @media screen and (max-width: 900px) {
     #cover-text {
         bottom: 15%;
     }
-    #gallery-image{
+
+    #gallery-image {
         background-position: 75%;
     }
-    #prices-image{
+
+    #prices-image {
         background-position: 30%;
+    }
+
+    #faq-image {
+        background-position: 70%;
     }
 }
