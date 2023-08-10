@@ -151,11 +151,7 @@ footer {
     float: right;
 }
 
-@media screen and (max-width: 900px) {
-    #cover-text {
-        bottom: 15%;
-    }
-}
+
 
 .active {
     border-bottom: solid #ffffff;
@@ -289,4 +285,13 @@ footer {
     background-size: cover;
     min-width: 100%;
     min-height: 100%;
+}
+
+@media screen and (max-width: 900px) {
+    #cover-text {
+        bottom: 15%;
+    }
+    .gallery-image{
+        background-position: 75%;
+    }
 }
