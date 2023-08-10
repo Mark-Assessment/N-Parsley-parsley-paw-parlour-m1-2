@@ -25,7 +25,7 @@ body {
     color: black;
 }
 
-#landing-image {
+.landing-image {
     width: 100%;
     position: fixed;
     z-index: -99;
@@ -186,7 +186,7 @@ footer {
     }
 }
 
-#gallery-image {
+.gallery-image {
     width: 100%;
     position: fixed;
     z-index: -99;
@@ -196,4 +196,97 @@ footer {
     animation-name: landing-image-zoom;
     animation-duration: 4s;
     animation-fill-mode: forwards;
+}
+
+.gallery-item {
+    background-color: #e3d5ca;
+    margin: 15px auto;
+    padding: 15px;
+    min-height: 300px;
+    min-width: 300px;
+    max-height: 300px;
+    max-width: 300px;
+}
+
+#gallery-01 {
+    background: url("../media/gallery-01.jpeg") no-repeat center center;
+    background-size: cover;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#gallery-02 {
+    background: url("../media/gallery-02.jpeg") no-repeat center center;
+    background-size: cover;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#gallery-03 {
+    background: url("../media/gallery-03.jpeg") no-repeat center center;
+    background-size: cover;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#gallery-04 {
+    background: url("../media/gallery-04.jpeg") no-repeat center center;
+    background-size: cover;
+    min-width: 100%;
+    min-height: 100%;
+}
+#gallery-05 {
+    background: url("../media/gallery-05.jpeg") no-repeat center center;
+    background-size: cover;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#gallery-06 {
+    background: url("../media/gallery-06.jpeg") no-repeat center center;
+    background-size: cover;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#gallery-07 {
+    background: url("../media/gallery-07.jpeg") no-repeat center center;
+    background-size: cover;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#gallery-08 {
+    background: url("../media/gallery-08.jpeg") no-repeat center center;
+    background-size: cover;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#gallery-09 {
+    background: url("../media/gallery-09.jpeg") no-repeat center center;
+    background-size: cover;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#gallery-10 {
+    background: url("../media/gallery-10.jpeg") no-repeat center center;
+    background-size: cover;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#gallery-11 {
+    background: url("../media/gallery-11.jpeg") no-repeat center center;
+    background-size: cover;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#gallery-12 {
+    background: url("../media/gallery-12.jpeg") no-repeat center center;
+    background-size: cover;
+    min-width: 100%;
+    min-height: 100%;
 }
