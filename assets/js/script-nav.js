@@ -1,5 +1,5 @@
 var nav = document.getElementById("site-nav");
-var landingImage = document.getElementById("landing-image");
+var landingImage = document.getElementsByClassName("landing-image")[0];
 window.onscroll = function () { scrollFunction(); };
 
 function scrollFunction() {
