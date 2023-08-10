@@ -300,6 +300,11 @@ footer {
     background: url("../media/terms-background.jpeg") no-repeat center center fixed;
 }
 
+#contact-image {
+    background: url("../media/landing-image.jpg") no-repeat center center fixed;
+    filter: blur(20px);
+}
+
 .card{
     margin: 15px;
 }
