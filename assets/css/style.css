@@ -182,7 +182,7 @@ footer {
     }
 }
 
-.gallery-image {
+#gallery-image {
     width: 100%;
     position: fixed;
     z-index: -99;
@@ -291,7 +291,7 @@ footer {
     #cover-text {
         bottom: 15%;
     }
-    .gallery-image{
+    #gallery-image{
         background-position: 75%;
     }
 }
