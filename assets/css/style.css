@@ -296,6 +296,10 @@ footer {
     background: url("../media/faq-background.jpeg") no-repeat center center fixed;
 }
 
+#terms-image {
+    background: url("../media/terms-background.jpeg") no-repeat center center fixed;
+}
+
 .card{
     margin: 15px;
 }
@@ -315,5 +319,9 @@ footer {
 
     #faq-image {
         background-position: 70%;
+    }
+
+    #terms-image {
+        background-position: 35%;
     }
 }
