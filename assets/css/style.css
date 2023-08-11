@@ -320,6 +320,10 @@ footer {
     max-height: 200px;
 }
 
+.date-warning{
+    display: none;
+}
+
 @media screen and (max-width: 900px) {
     #cover-text {
         bottom: 15%;
