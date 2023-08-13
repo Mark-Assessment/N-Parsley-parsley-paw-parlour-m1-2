@@ -27,4 +27,20 @@ This is a project created for a fictional cattery called ***Parsley Paw Parlour*
         1. As A Frequent Visitor - I want to see if pictures of my cat have been uploaded to the company website during their stay.
         2. As A Frequent Visitor - I want to be able to book further appoointments/stays at the establishment.
         3. As A Frequent Visitor - I want to be able to view updates to the company's Terms & Conditions to see any changes which may affect my stay.
+
+### Design
+
+-   ### Colour Scheme
+
+    -   The main colour scheme will be a light and approachable style, of which the colours will be picked respective of the background image.
+
+-   ### Typography
+
+    -   The main font used within the websites design will be Oswald, with a fall-back font of Sans-Serif if the Oswald font could not be loaded. The Oswald font gives off an approachable first impression.
+
+-   ### Imagery
+
+    -   Each individual page will be prefaced with a scrollable, fixed background image of a cat. A different image will be used each time to ensure the user is aware of a page change when they click an internal link.
+    The background imagery will then be blurred as the user scrolls in order to stop it detracting from the main information on the page.
+
         
