@@ -30,17 +30,29 @@ This is a project created for a fictional cattery called ***Parsley Paw Parlour*
 
 ### Design
 
--   ### Colour Scheme
+-   #### Colour Scheme
 
     -   The main colour scheme will be a light and approachable style, of which the colours will be picked respective of the background image.
 
--   ### Typography
+-   #### Typography
 
     -   The main font used within the websites design will be Oswald, with a fall-back font of Sans-Serif if the Oswald font could not be loaded. The Oswald font gives off an approachable first impression.
 
--   ### Imagery
+-   #### Imagery
 
     -   Each individual page will be prefaced with a scrollable, fixed background image of a cat. A different image will be used each time to ensure the user is aware of a page change when they click an internal link.
     The background imagery will then be blurred as the user scrolls in order to stop it detracting from the main information on the page.
 
-        
+### Wireframes
+
+Add Wireframes here
+
+## Features
+
+-   ### Responsive
+
+    -   The website will be responsive on all devices, with CSS media queries to change size and position of elements on different screen sizes.
+
+-   ### Interactive
+
+    -   The website will include interactive elements such as a booking form in order to add user engagement.
