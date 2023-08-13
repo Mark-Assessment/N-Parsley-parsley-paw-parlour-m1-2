@@ -22,5 +22,9 @@ This is a project created for a fictional cattery called ***Parsley Paw Parlour*
         2. As A Returning Visitor - I want to be able to find the price/daily rate for pet lodging.
         3. As A Returning Visitor - I want to be able to contact the business or visit to gain more information that I may require.
 
+-    #### Goals For A Frequent Visitor:
 
+        1. As A Frequent Visitor - I want to see if pictures of my cat have been uploaded to the company website during their stay.
+        2. As A Frequent Visitor - I want to be able to book further appoointments/stays at the establishment.
+        3. As A Frequent Visitor - I want to be able to view updates to the company's Terms & Conditions to see any changes which may affect my stay.
         
