@@ -45,7 +45,9 @@ This is a project created for a fictional cattery called ***Parsley Paw Parlour*
 
 ### Wireframes
 
-[HTML5](assets/media/desktop-wireframe.png)
+[Desktop Home Page Wireframe](assets/media/desktop-wireframe.png)
+
+[Mobile Home Page Wireframe](assets/media/mobile-wireframe.png)
 
 ## Features
 
@@ -84,3 +86,12 @@ This is a project created for a fictional cattery called ***Parsley Paw Parlour*
 1. [GIMP:](https://www.gimp.org/)
     - GIMP was used when any changes to images were required, as it is a well known photo editing software.
 
+## Testing
+
+To test the project, the W3C Markup and CSS Validators were used to ensure no syntax errors were present in the final code.
+
+The JSLint Validator was also used in order to verify the minimal JavaScript Code used.
+
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+-   [JSHint JavaScript Validator](https://jshint.com/) - [Results](https://github.com/)
