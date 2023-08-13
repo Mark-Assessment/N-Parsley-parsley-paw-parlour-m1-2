@@ -45,7 +45,7 @@ This is a project created for a fictional cattery called ***Parsley Paw Parlour*
 
 ### Wireframes
 
-Add Wireframes here
+[HTML5](assets/media/desktop-wireframe.png)
 
 ## Features
 
@@ -56,3 +56,31 @@ Add Wireframes here
 -   ### Interactive
 
     -   The website will include interactive elements such as a booking form in order to add user engagement.
+
+## Technologies Used
+
+### Languages Used
+
+-   [HTML5](https://en.wikipedia.org/wiki/HTML5)
+-   [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+-   [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+
+### External Frameworks, Programmes & Libraries Used
+
+1. [Google Fonts:](https://fonts.google.com/)
+    - Google fonts were used in order to import the Oswald font used in the design of the website. The link to the google font was placed in the head element of the html pages using it.
+1. [Font Awesome:](https://fontawesome.com/)
+    - Font Awesome was used to add icons to certain elements in order to provide more information about them, such as a 'Telephone' Icon to preface the company phone number.
+1. [Bootstrap 4.1.3:](https://getbootstrap.com/docs/4.1/getting-started/introduction/)
+    - Bootstrap was utilised in order to create the main structure of the page more easily, by using the ready-made components to create a responsive design/layout.
+1. [jQuery:](https://jquery.com/)
+    - jQuery worked in accordance with Bootstrap to add additional interaction and responsivity to the Navbar and other elements.
+1. [Git](https://git-scm.com/)
+    - Git was used for version control by using the terminal to add and commit files and messages when changes were made in order to keep a documented track of the development process.
+1. [GitHub:](https://github.com/)
+    - GitHub was used in order to store the files pushed from the terminal using git. It was also used to host the final project using GitHub Pages.
+1. [Balsamiq:](https://balsamiq.com/)
+    - Balsamiq was used to create the wireframes during the design process.
+1. [GIMP:](https://www.gimp.org/)
+    - GIMP was used when any changes to images were required, as it is a well known photo editing software.
+
