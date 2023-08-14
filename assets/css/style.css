@@ -81,15 +81,15 @@ body {
 }
 
 .jumbo-info-container .jumbotron {
-    background-color: #f5ebe0;
+    background-color: #fefefe;
 }
 
 .jumbo-info-container button {
-    background-color: #d6ccc2;
+    background-color: #e3d5ca;
 }
 
 #carousel-container {
-    background-color: #f5ebe0;
+    background-color: #fefefe;
 }
 
 #carousel-title {
@@ -134,7 +134,7 @@ body {
 }
 
 footer {
-    background-color: #e3d5ca;
+    background-color: #fefefe;
     padding: 15px;
     margin-top: 15px;
 }
