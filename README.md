@@ -164,3 +164,12 @@ The JSLint Validator was also used in order to verify the minimal JavaScript Cod
 ### Known Bugs
 
 - On Mobile Devices using Safari, some of the internal links appear blue instead of the specified text colour.
+
+## Site Deployment
+
+The project was hosted using GitHub pages. This was done using the following process.
+
+- Locating the [Settings](https://github.com/Natte2110/parsley-paw-parlour/settings) Pane within the [GitHub Repository](https://github.com/Natte2110/parsley-paw-parlour).
+- Under the [Pages](https://github.com/Natte2110/parsley-paw-parlour/settings/pages) section, the 'Main' branch was selected from the drop down within the 'Build And Deployment' sub-section.
+- After a short wait, the [URL](https://natte2110.github.io/parsley-paw-parlour/) was generated for the live project.
+
