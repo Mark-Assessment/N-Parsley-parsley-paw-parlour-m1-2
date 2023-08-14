@@ -186,6 +186,8 @@ The content used within the website was adapted from results that were generated
 
 The images used within the website were taken from multiple sources under the [Google Search](https://www.google.com) for "Cat In Cattery".
 
+[Coolers](https://coolors.co/) Was used in order to find a suitable colour scheme for the websites colour scheme as it provides valuable insights and allows you to view the colours as someone with different type of colour blindness would.
+
 ### Code
 
 - The CSS to keep the background image fixed in place was taken from this [Stack Overflow](https://stackoverflow.com/questions/22006587/how-to-make-div-background-image-responsive) post.
