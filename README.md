@@ -154,4 +154,10 @@ The JSLint Validator was also used in order to verify the minimal JavaScript Cod
         1. The user is able to view the Terms & Conditions page at any time, and is able to see if their cat meets the current requirements to stay.
         2. The user is able to easily access the Terms & Conditions page via the navigation bar or embedded internal links on other pages.
 
+### Further Testing
+
+- The website was tested on multiple browsers, including - Google Chrome, AVG Secure Browser, Chromium (Raspberry Pi) and Safari.
+- The website was also tested across a few different devices. - MacBook Pro (MacOS), Windows 11 Laptop, and an iPhone 12 (iOS).
+- Family members were consulted to receive feedback on the overall design and functionality of the website.
+- Each link was tested on every individual page in order to ensure correct internal connection, as well as any external links.
 
