@@ -95,3 +95,23 @@ The JSLint Validator was also used in order to verify the minimal JavaScript Cod
 -   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
 -   [JSHint JavaScript Validator](https://jshint.com/) - [Results](https://github.com/)
+
+### Testing User Stories from User Experience (UX) Section
+
+-   #### First Time Visitor Goals
+
+    1. As A First Time Visitor - I want to be able to understand the main purpose of the site, and find out useful information regarding the business.
+        
+        1. When the site is loaded, the user is greeted by a large image of a cat in a cattery, with a cover text which clearly depicts the purpose of the website/business. The first block of information when the page is scrolled also provides immediate information regarding the sites purpose.
+        2. The User is also greeted with an indication to scroll down, as well as a clear navigation bar at the top of the screen if they wish to change the page.
+    ###
+    2. As A First Time Visitor - I want to be able to view reviews/testimonials from previous customers to decide if this is right for me.
+    
+        1. Once the user has ingested necessary information on the home page, the penultimate section is an interactive carousel with testimonials from previous customers, accompanied by corresponding images which catch the user's attention.
+        2. The testimonial carousel is also on a timer to switch between different entries, which also serves to catch the user's attention if they have not already seen the section.
+    ###
+    3. As A First Time Visitor - I want to be able to easily and interactively navigate through the site and it's pages to find what I need.
+
+        1. When entering the site, the user is greeted with a large navigation bar along the top with links to other pages. Each individual page is appropriately named and allows the user to easily find specific information such as prices and terms & conditions.
+        2. The common navbar links are the same on each page and remain at the top when scrolled to ensure the user never feels trapped within the site.
+        3. The navbar also changes from transparent to have a solid background dynamically when the page is scrolled in order to appear more visible over the other elements.
