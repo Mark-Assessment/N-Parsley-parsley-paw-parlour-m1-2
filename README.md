@@ -161,3 +161,6 @@ The JSLint Validator was also used in order to verify the minimal JavaScript Cod
 - Family members were consulted to receive feedback on the overall design and functionality of the website.
 - Each link was tested on every individual page in order to ensure correct internal connection, as well as any external links.
 
+### Known Bugs
+
+- On Mobile Devices using Safari, some of the internal links appear blue instead of the specified text colour.
