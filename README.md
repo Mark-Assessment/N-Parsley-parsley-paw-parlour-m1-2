@@ -96,6 +96,10 @@ The JSLint Validator was also used in order to verify the minimal JavaScript Cod
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](assets/media/cssvalidator-result.png)
 -   [JSHint JavaScript Validator](https://jshint.com/) - [Results](assets/media/jsvalidator-result.png)
 
+[Page Speed Insights](https://pagespeed.web.dev/) was also used to assess the accessibilty & performance of the website.
+
+<img src="assets/media/pagespeedinsights.png">
+
 ### Testing User Stories from User Experience (UX) Section
 
 -   #### First Time Visitor Goals
