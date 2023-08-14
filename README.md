@@ -134,3 +134,24 @@ The JSLint Validator was also used in order to verify the minimal JavaScript Cod
 
         1. Another individual page is available on the navigation bar called 'Contact Us' - This clearly links to a separate page containing information regarding the business location and contact information.
         2. The relevant contact information is also located within the footer of each page so that it is always readily available for the user.
+
+-   #### Frequent Visitor Goals
+
+    1. As A Frequent Visitor - I want to see if pictures of my cat have been uploaded to the company website during their stay.
+
+        1. One of the navbar items links to a 'Gallery Page' which consists of many images of previous cat that have stayed at the establishment.
+        2. The user is able to look at the images and see if their own cat has been uploaded to the gallery.
+    ###
+
+    2. As A Frequent Visitor - I want to be able to book further appoointments/stays at the establishment.
+
+        1. The user is able to book appointments both on the home page and the prices page, listed under the 'Booking' Drop down.
+        2. They are also able to book a visit as specified in the Frequently Asked Questions page within the opening hours.
+    ###
+
+    3. As A Frequent Visitor - I want to be able to view updates to the company's Terms & Conditions to see any changes which may affect my stay.
+
+        1. The user is able to view the Terms & Conditions page at any time, and is able to see if their cat meets the current requirements to stay.
+        2. The user is able to easily access the Terms & Conditions page via the navigation bar or embedded internal links on other pages.
+
+
