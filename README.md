@@ -92,9 +92,9 @@ To test the project, the W3C Markup and CSS Validators were used to ensure no sy
 
 The JSLint Validator was also used in order to verify the minimal JavaScript Code used.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
--   [JSHint JavaScript Validator](https://jshint.com/) - [Results](https://github.com/)
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+-   [JSHint JavaScript Validator](https://jshint.com/)
 
 ### Testing User Stories from User Experience (UX) Section
 
