@@ -173,3 +173,23 @@ The project was hosted using GitHub pages. This was done using the following pro
 - Under the [Pages](https://github.com/Natte2110/parsley-paw-parlour/settings/pages) section, the 'Main' branch was selected from the drop down within the 'Build And Deployment' sub-section.
 - After a short wait, the [URL](https://natte2110.github.io/parsley-paw-parlour/) was generated for the live project.
 
+## Credits
+
+### Content
+
+The content used within the website was adapted from results that were generated using [ChatGPT](https://chat.openai.com/) using prompts such as:
+
+- "Write me a list of Terms & Conditions for a cattery busines"
+- "Generate a list of Frequently Asked Questions for a cattery business.
+
+### Media
+
+The images used within the website were taken from multiple sources under the [Google Search](https://www.google.com) for "Cat In Cattery".
+
+### Code
+
+- The CSS to keep the background image fixed in place was taken from this [Stack Overflow](https://stackoverflow.com/questions/22006587/how-to-make-div-background-image-responsive) post.
+- This [W3Schools Page](https://www.w3schools.com/cssref/pr_background-position.php) was used to understand the **background-position** CSS Rule used when repositioning the background images on smaller screens.
+- Again, this [W3Schools Page](https://www.w3schools.com/howto/howto_css_blurred_background.asp) was used to understand how to blur the background image using CSS so that is does not distract from the foreground information.
+- In order to dynamically blur the background image based on the pages scroll location, this [Mozilla Developer](https://developer.mozilla.org/en-US/docs/Web/API/Document/scroll_event) page was utilised to further understand the windows.onscroll event.
+- The [Bootstrap](https://getbootstrap.com/docs/4.3/getting-started/introduction/) documentation was also consulted regularly to understand the grid/layout system and the available bootstrap components. It was also used to help enable the website to be responsive and available to all devices.
