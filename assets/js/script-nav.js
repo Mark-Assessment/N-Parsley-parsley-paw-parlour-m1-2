@@ -4,7 +4,7 @@ var dateFrom = document.getElementById("date-from");
 var dateTo = document.getElementById("date-to");
 
 window.onscroll = function () {
-    var opacity = 0.8 * (document.documentElement.scrollTop / 480);
+    var opacity = (0.7 * (document.documentElement.scrollTop / 480)) + 0.3;
     nav.style.backgroundColor = "rgb(51, 51, 51," + opacity + " )";
 
     var blur = 10 * (document.documentElement.scrollTop / 600);
