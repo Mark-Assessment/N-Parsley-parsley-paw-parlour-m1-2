@@ -1,3 +1,4 @@
+/* This scroll behaviour was put in place to ensure when the user clicks an internal link which scrolls to a certain element, it is a smooth scrolling animation */
 html {
     scroll-behavior: smooth;
 }
@@ -39,12 +40,11 @@ body {
     z-index: -99;
     min-height: 100%;
     background: url("../media/landing-image.jpg") no-repeat center center fixed;
-    /* background-color: rgba(51, 51, 51, 0.5); */
     animation-name: landing-image-zoom;
     animation-duration: 4s;
     animation-fill-mode: forwards;
 }
-
+/* This keyframe animation will zoom in the background image when the page is loaded, this is designed to catch the attention of the user upon first glance */
 @keyframes landing-image-zoom {
     from {
         transform: scale(1);
@@ -183,7 +183,7 @@ footer {
     text-align: center;
     width: 6rem;
 }
-
+/* This keyframe animation will make the scroll indicator move up and down, this makes the user aware that there is more to the page and entices them to scroll */
 @keyframes bounce {
     50% {
         transform: translateY(-50%);
@@ -323,6 +323,7 @@ footer {
     display: none;
 }
 
+/* These css rules within the media query are used to ensure the background images are properly aligned on pages with a smaller screen width to ensure the cat is always in view on any device */
 @media screen and (max-width: 900px) {
     #cover-text {
         bottom: 15%;
