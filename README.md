@@ -108,41 +108,41 @@ The JSLint Validator was also used in order to verify the minimal JavaScript Cod
         
         1. When the site is loaded, the user is greeted by a large image of a cat in a cattery, with a cover text which clearly depicts the purpose of the website/business. The first block of information when the page is scrolled also provides immediate information regarding the sites purpose.
         2. The User is also greeted with an indication to scroll down, as well as a clear navigation bar at the top of the screen if they wish to change the page.
-    <img src="assets/media/user-story-01.png">
+        <img src="assets/media/user-story-01.png">
     ###
     2. As A First Time Visitor - I want to be able to view reviews/testimonials from previous customers to decide if this is right for me.
     
         1. Once the user has ingested necessary information on the home page, the penultimate section is an interactive carousel with testimonials from previous customers, accompanied by corresponding images which catch the user's attention.
         2. The testimonial carousel is also on a timer to switch between different entries, which also serves to catch the user's attention if they have not already seen the section.
-    <img src="assets/media/user-story-02.png">
+        <img src="assets/media/user-story-02.png">
     ###
     3. As A First Time Visitor - I want to be able to easily and interactively navigate through the site and it's pages to find what I need.
 
         1. When entering the site, the user is greeted with a large navigation bar along the top with links to other pages. Each individual page is appropriately named and allows the user to easily find specific information such as prices and terms & conditions.
         2. The common navbar links are the same on each page and remain at the top when scrolled to ensure the user never feels trapped within the site.
         3. The navbar also changes from transparent to have a solid background dynamically when the page is scrolled in order to appear more visible over the other elements.
-    <img src="assets/media/user-story-03.png">
+        <img src="assets/media/user-story-03.png">
 -   #### Returning Visitor Goals
 
     1. As A Returning Visitor - I want to be able to find out how to book a visit at the establishment.
 
         1. On both the home page and the 'prices' page, a "Book Now" button is available which upon clicking, displays a modal form in which the user can input information to book their stay.
         2. Along the navbar is a dropdown menu called 'Booking', which clearly indicates the sections with relevant information to booking, such as a price list, FAQ's and Terms & Conditions - This is so the user can be fully aware of the booking process and the rules behind it.
-    <img src="assets/media/user-story-04.png">
+        <img src="assets/media/user-story-04.png">
     ###
     2. As A Returning Visitor - I want to be able to find the price/daily rate for pet lodging.
 
         1. Along the navbar, in the 'Booking' dropdown menu is a specific page for prices. This individual page ensures that all the pricing information is in one central location, and the user can easily find the information required.
         2. The prices page contains a simple table with all the basic prices and what they entail.
         3. Another sub-table is also present further down the page listing individual prices for additional services the user can purchase.
-    <img src="assets/media/user-story-05.png">
+        <img src="assets/media/user-story-05.png">
     ###
 
     3. As A Returning Visitor - I want to be able to contact the business or visit to gain more information that I may require.
 
         1. Another individual page is available on the navigation bar called 'Contact Us' - This clearly links to a separate page containing information regarding the business location and contact information.
         2. The relevant contact information is also located within the footer of each page so that it is always readily available for the user.
-    <img src="assets/media/user-story-06.png">
+        <img src="assets/media/user-story-06.png">
 
 -   #### Frequent Visitor Goals
 
@@ -150,7 +150,7 @@ The JSLint Validator was also used in order to verify the minimal JavaScript Cod
 
         1. One of the navbar items links to a 'Gallery Page' which consists of many images of previous cat that have stayed at the establishment.
         2. The user is able to look at the images and see if their own cat has been uploaded to the gallery.
-    <img src="assets/media/user-story-07.png">
+        <img src="assets/media/user-story-07.png">
     ###
 
     2. As A Frequent Visitor - I want to be able to book further appointments/stays at the establishment.
